@@ -3,5 +3,15 @@ React project to determine space events based on current location / locations se
 
 ### Setup
 ```
-npm install
+yarn install
+```
+
+### Compile
+```
+yarn compile
+```
+
+### Usage
+```
+yarn start
 ```
