@@ -6,11 +6,6 @@ React project to determine space events based on current location / locations se
 yarn install
 ```
 
-### Compile
-```
-yarn compile
-```
-
 ### Usage
 ```
 yarn start
