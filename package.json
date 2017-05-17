@@ -1,0 +1,8 @@
+{
+  "name": "space-events",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/MichaelBunting/space-events.git",
+  "author": "MichaelBunting <mikebunting1@gmail.com>",
+  "license": "MIT"
+}
