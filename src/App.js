@@ -24,10 +24,10 @@ class App extends React.Component {
         navigator.geolocation.getCurrentPosition(position => {
             this.setState({
                 lat: position.coords.latitude,
-                long: position.coords.longitude,
+                lng: position.coords.longitude,
                 loading: false
             }, () => {
-                this.createMap();
+                this.refs.mapContainer.setMapLoc();
             });
         });
     }
@@ -36,6 +36,7 @@ class App extends React.Component {
         return (
             <div>
                 <GoogleMapContainer
+                    ref="mapContainer"
                     lat={this.state.lat}
                     lng={this.state.lng}/>
             </div>
