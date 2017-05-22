@@ -23,6 +23,6 @@
   },
   "scripts": {
     "compile": "webpack",
-    "start": "killall node && node server.js & gulp watch"
+    "start": "killall node; node server.js & gulp watch"
   }
 }

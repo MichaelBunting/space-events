@@ -10,3 +10,6 @@ yarn install
 ```
 yarn start
 ```
+
+## NOTE:
+Turns out the api isnt maintained and no longer works :/

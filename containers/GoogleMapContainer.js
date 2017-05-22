@@ -38,7 +38,9 @@ class GoogleMapContainer extends React.Component {
                 center: {
                     lat: 37.7749,
                     lng: -122.4194
-                }
+                },
+                mapTypeControl: false,
+                streetViewControl: false,
             })
         });
     }

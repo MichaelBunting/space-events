@@ -8,7 +8,9 @@ class Sidebar extends React.Component {
     render() {
         return (
             <div className="sidebar">
-                <h1>Sidebar</h1>
+                <h1 className="sidebar__title">Events</h1>
+
+                <hr className="sidebar__separator"></hr>
             </div>
         )
     }
