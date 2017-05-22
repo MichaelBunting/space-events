@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import GoogleMapContainer from '../containers/GoogleMapContainer';
+import SidebarContainer from '../containers/SidebarContainer';
 
 class App extends React.Component {
     constructor() {
@@ -39,6 +40,8 @@ class App extends React.Component {
                     ref="mapContainer"
                     lat={this.state.lat}
                     lng={this.state.lng}/>
+
+                <SidebarContainer />
             </div>
         )
     }
